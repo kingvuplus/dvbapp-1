@@ -14,7 +14,16 @@ dist_install_DATA = \
 	LiberationSans-Bold.ttf \
 	LiberationSans-BoldItalic.ttf \
 	LiberationSans-Italic.ttf \
-	LiberationSans-Regular.ttf
+	LiberationSans-Regular.ttf \
+	analog.ttf \ 
+        Army_Bold_G.ttf \
+        army-digital.ttf \
+        Army_Regular_L.ttf \
+        ForgottenFuturistShadow.ttf \
+        goodtime.ttf \
+        nmsbd2.ttf \
+        tiny.ttf \
+        titles.ttf
 
 if VUULTIMO
 dist_install_DATA += analog.ttf MyriadPro-Regular.otf MyriadPro-Semibold.otf MyriadPro-SemiboldIt.otf
