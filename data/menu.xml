@@ -96,7 +96,14 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 			</item>
 			<!--<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin" /></item>-->
 		</menu>
-		<menu text="Standby / restart" entryID="standby_restart_list">
+		<item level="0" text="Teleportation" entryID="blackhole_red"><screen module="BhRed" screen="BhRedp_main" /></item>
+		<item level="0" text="Black Hole App's" entryID="blackhole_extra"><screen module="BhSettings" screen="DeliteSettings" /></item>
+                <item level="0" text="Addons" entryID="bh_addons"><screen module="BhAddons" screen="DeliteAddons" /></item>
+                <item level="0" text="Epg Panel" entryID="epg_panel"><screen module="BhEpgPanel" screen="DeliteEpgPanel" /></item>
+		<menu level="0" text="Backup Menu" entryID="backup_screen">
+			<id val="bhbackup" />
+	        </menu>		
+		<menu text="Black Hole Shutdown" entryID="standby_restart_list">
 			<id val="shutdown" />
 			<item text="Sleep timer" entryID="sleep"><screen module="SleepTimerEdit" screen="SleepTimerEdit" /></item>
 			<item text="Standby" entryID="standby"><screen module="Standby" screen="Standby"/></item>
